@@ -1,0 +1,9 @@
+machine:
+  node:
+    version: 6.9.4
+  environment:
+    COVERALLS_SERVICE_NAME: circleci
+
+test:
+  override:
+    - npm test
